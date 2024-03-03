@@ -1,0 +1,23 @@
+{
+  "name": "odin-weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "deploy1": "git add dist && git commit -m 'Initial dist subtree commit'",
+    "deploy2": "git subtree push --prefix dist origin gh-pages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}

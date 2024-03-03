@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&display=swap');
+
+:root{
+    --text: #000711;
+    --text-light: #f0f6ff;
+    --background: #004992;
+    --primary: #0261d6;
+    --primary-light: #9bc8ffd3;
+    --secondary: #ffc000;
+    --secondary--light: #fffdf8;
+    --accent: #ff4af3;
+}
+
+body,
+html {
+  min-height: 100vh;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    background-color: var(--background);
+}
